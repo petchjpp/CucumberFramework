@@ -10,8 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 				"json:Reports/jsonReport.json"},
 		features="./src/test/resources/features",
 		glue="step_definitions",
-		dryRun=false, 		
-		tags="@DemoQADatePicker"
+		dryRun=false, 	// true : to generate test cases	
+		tags="@DemoAlert1"
 		)
 public class TestRunner {
 	

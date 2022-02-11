@@ -24,6 +24,9 @@ public class AmazonLoginPage {
 	@FindBy (css = ".a-list-item")
 	public WebElement errorMessage;
 	
+	@FindBy (xpath = "//button[contains(text(), " + 'i' + ")]")
+	public WebElement signInButton;
+	
 	
 
 }
