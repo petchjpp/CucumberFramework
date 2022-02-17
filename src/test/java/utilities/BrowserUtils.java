@@ -39,14 +39,17 @@ public class BrowserUtils {
 	}
 
 	public void alertAccept() {
+		alert = Driver.getDriver().switchTo().alert();
 		alert.accept();
 	}
 
 	public void alertDismiss() {
+		alert = Driver.getDriver().switchTo().alert();
 		alert.dismiss();
 	}
 
 	public void sendKeysOnAlert(String name) {
+		alert = Driver.getDriver().switchTo().alert();
 		alert.sendKeys(name);
 	}
 
