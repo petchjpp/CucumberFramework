@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definitions",
 		dryRun=false, 	// true : to generate test cases	
-		tags="@DemoAlert1"
+		tags="@AddTradeAndValidate"
 		)
 public class TestRunner {
 	

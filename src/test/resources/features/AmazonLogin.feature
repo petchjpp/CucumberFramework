@@ -1,3 +1,4 @@
+@Regression
 Feature: Amazon Login
   I want to be able to login with valid credentials.
   I should not be logged in with invalid credentials.
