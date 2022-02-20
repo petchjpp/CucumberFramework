@@ -1,0 +1,18 @@
+{
+  "category": {
+    "id": "badID",
+    "name": "Sumo",
+    "status": null
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 42343,
+      "name": "shitzu"
+    }
+  ],
+  "status": "available"
+}

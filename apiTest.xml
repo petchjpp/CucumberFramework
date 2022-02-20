@@ -1,0 +1,7 @@
+<suite name="apiTests" parallel="false" thread-count="2">
+	<test name="API_SmokeTests">
+		<classes>
+			<class name="apiTests.PetStoreAPI_Tests" />
+		</classes>
+	</test>
+</suite>
