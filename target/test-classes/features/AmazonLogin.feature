@@ -1,4 +1,3 @@
-@Regression
 Feature: Amazon Login
   I want to be able to login with valid credentials.
   I should not be logged in with invalid credentials.
@@ -10,7 +9,7 @@ Feature: Amazon Login
     When I click on the sign in button
     Then I should be directed to log in page
 
-  @amazonLogin @amazonInvalidUser
+  @amazonLogin @amazonInvalidUser @SmokeTests
   Scenario: User should not be directed to password field when invalid email is given
     Given I am on the login page
     When I enter invalid email "jon.dow@gmail.com"
