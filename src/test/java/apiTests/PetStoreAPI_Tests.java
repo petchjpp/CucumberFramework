@@ -73,4 +73,10 @@ public class PetStoreAPI_Tests {
 		.and().assertThat().body("status", Matchers.equalTo("available"));
 		
 	}
+	
+	@Test
+	public void justPrintingSomething() {
+		System.out.println("This is actually from TestNG class API Test Suite.");
+	}
+	
 }
